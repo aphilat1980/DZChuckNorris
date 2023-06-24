@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		178A51CF2A46A2E9007E9229 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178A51CE2A46A2E9007E9229 /* AppDelegate.swift */; };
 		178A51D12A46A2E9007E9229 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178A51D02A46A2E9007E9229 /* SceneDelegate.swift */; };
-		178A51D32A46A2E9007E9229 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178A51D22A46A2E9007E9229 /* ViewController.swift */; };
-		178A51D62A46A2E9007E9229 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178A51D42A46A2E9007E9229 /* Main.storyboard */; };
 		178A51D82A46A2EB007E9229 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 178A51D72A46A2EB007E9229 /* Assets.xcassets */; };
 		178A51DB2A46A2EB007E9229 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 178A51D92A46A2EB007E9229 /* LaunchScreen.storyboard */; };
+		178A51E32A46A426007E9229 /* RandomQuoteLoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178A51E22A46A426007E9229 /* RandomQuoteLoadViewController.swift */; };
+		178A51E52A46A487007E9229 /* QuoteListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178A51E42A46A487007E9229 /* QuoteListViewController.swift */; };
+		178A51E72A46A4C9007E9229 /* CategoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178A51E62A46A4C9007E9229 /* CategoryListViewController.swift */; };
+		178A51E92A46A93A007E9229 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178A51E82A46A93A007E9229 /* NetworkManager.swift */; };
+		178A51EC2A46BBF6007E9229 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 178A51EB2A46BBF6007E9229 /* Realm */; };
+		178A51EE2A46BBF6007E9229 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 178A51ED2A46BBF6007E9229 /* RealmSwift */; };
+		178A51F02A46BC54007E9229 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178A51EF2A46BC54007E9229 /* Model.swift */; };
+		178A51F22A472350007E9229 /* QuoteInCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178A51F12A472350007E9229 /* QuoteInCategoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		178A51CB2A46A2E9007E9229 /* ChuckNorris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChuckNorris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		178A51CE2A46A2E9007E9229 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		178A51D02A46A2E9007E9229 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		178A51D22A46A2E9007E9229 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		178A51D52A46A2E9007E9229 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		178A51D72A46A2EB007E9229 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		178A51DA2A46A2EB007E9229 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		178A51DC2A46A2EB007E9229 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		178A51E22A46A426007E9229 /* RandomQuoteLoadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomQuoteLoadViewController.swift; sourceTree = "<group>"; };
+		178A51E42A46A487007E9229 /* QuoteListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteListViewController.swift; sourceTree = "<group>"; };
+		178A51E62A46A4C9007E9229 /* CategoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListViewController.swift; sourceTree = "<group>"; };
+		178A51E82A46A93A007E9229 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		178A51EF2A46BC54007E9229 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		178A51F12A472350007E9229 /* QuoteInCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteInCategoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				178A51EE2A46BBF6007E9229 /* RealmSwift in Frameworks */,
+				178A51EC2A46BBF6007E9229 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,8 +70,12 @@
 			children = (
 				178A51CE2A46A2E9007E9229 /* AppDelegate.swift */,
 				178A51D02A46A2E9007E9229 /* SceneDelegate.swift */,
-				178A51D22A46A2E9007E9229 /* ViewController.swift */,
-				178A51D42A46A2E9007E9229 /* Main.storyboard */,
+				178A51E82A46A93A007E9229 /* NetworkManager.swift */,
+				178A51EF2A46BC54007E9229 /* Model.swift */,
+				178A51E22A46A426007E9229 /* RandomQuoteLoadViewController.swift */,
+				178A51E42A46A487007E9229 /* QuoteListViewController.swift */,
+				178A51E62A46A4C9007E9229 /* CategoryListViewController.swift */,
+				178A51F12A472350007E9229 /* QuoteInCategoryViewController.swift */,
 				178A51D72A46A2EB007E9229 /* Assets.xcassets */,
 				178A51D92A46A2EB007E9229 /* LaunchScreen.storyboard */,
 				178A51DC2A46A2EB007E9229 /* Info.plist */,
@@ -83,6 +99,10 @@
 			dependencies = (
 			);
 			name = ChuckNorris;
+			packageProductDependencies = (
+				178A51EB2A46BBF6007E9229 /* Realm */,
+				178A51ED2A46BBF6007E9229 /* RealmSwift */,
+			);
 			productName = ChuckNorris;
 			productReference = 178A51CB2A46A2E9007E9229 /* ChuckNorris.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +131,9 @@
 				Base,
 			);
 			mainGroup = 178A51C22A46A2E9007E9229;
+			packageReferences = (
+				178A51EA2A46BBF5007E9229 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 178A51CC2A46A2E9007E9229 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +150,6 @@
 			files = (
 				178A51DB2A46A2EB007E9229 /* LaunchScreen.storyboard in Resources */,
 				178A51D82A46A2EB007E9229 /* Assets.xcassets in Resources */,
-				178A51D62A46A2E9007E9229 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +160,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				178A51D32A46A2E9007E9229 /* ViewController.swift in Sources */,
+				178A51F22A472350007E9229 /* QuoteInCategoryViewController.swift in Sources */,
+				178A51E32A46A426007E9229 /* RandomQuoteLoadViewController.swift in Sources */,
+				178A51F02A46BC54007E9229 /* Model.swift in Sources */,
+				178A51E72A46A4C9007E9229 /* CategoryListViewController.swift in Sources */,
+				178A51E92A46A93A007E9229 /* NetworkManager.swift in Sources */,
+				178A51E52A46A487007E9229 /* QuoteListViewController.swift in Sources */,
 				178A51CF2A46A2E9007E9229 /* AppDelegate.swift in Sources */,
 				178A51D12A46A2E9007E9229 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +174,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		178A51D42A46A2E9007E9229 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				178A51D52A46A2E9007E9229 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		178A51D92A46A2EB007E9229 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -291,7 +310,6 @@
 				INFOPLIST_FILE = ChuckNorris/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,7 +336,6 @@
 				INFOPLIST_FILE = ChuckNorris/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -356,6 +373,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		178A51EA2A46BBF5007E9229 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.40.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		178A51EB2A46BBF6007E9229 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 178A51EA2A46BBF5007E9229 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		178A51ED2A46BBF6007E9229 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 178A51EA2A46BBF5007E9229 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 178A51C32A46A2E9007E9229 /* Project object */;
 }
